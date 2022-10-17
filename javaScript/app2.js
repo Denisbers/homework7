@@ -2,9 +2,9 @@
 
 for (let i = 10, b = 27; i <= 100; i = i + 10) {
     if (b === 100)
-        document.write(i);
+        console.log(i);
     else {
-        document.write(i * b + ' ')
+        console.log(i + ' долларов = ' + i * b + ' ')
     }
 }
 

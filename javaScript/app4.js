@@ -1,5 +1,4 @@
-
-function test_prime(n) {
+function digit(n) {
 
     if (n === 1) {
         return false;
@@ -16,19 +15,7 @@ function test_prime(n) {
     }
 }
 
-document.writeln(test_prime(5));
-
-
-
-/* 
-function primality(n) {
-    for(let i = 2; i < n; i++) {
-       if(n % i === 0) return false;
-    }
-    return n > 1;
-   } 
-*/
-
+console.log(digit(prompt('enter number')));
 
 
 /* 

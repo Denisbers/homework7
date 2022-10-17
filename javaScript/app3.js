@@ -1,11 +1,8 @@
+let n = + prompt('enter the number')
+for (let a = 1; a <= 100; a++)
+    if ((a * a) <= n)
+        console.log(a)
 
-function digitN(n) {
-    for (let a = 1; a <= 100; a++)
-        if ((a * a) <= n)
-            console.log(a)
-}
-
-digitN(1024)
 
 /* 
 Дано целое число. Вывести все целые числа от 1 до 100, 

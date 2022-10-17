@@ -6,7 +6,7 @@ function digit(n) {
     return n == 1;
 }
 
-console.log(digit(13));
+console.log(digit(prompt('enter number')));
 
 
 /* 

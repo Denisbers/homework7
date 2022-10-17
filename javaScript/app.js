@@ -1,5 +1,6 @@
+let i = 20
 
-for (let i = 19.5, b = 0.5; i < 31; i = i + 0.5) {
+for (i <= 20, b = 0.5; i < 30; i = i + 0.5) {
     if (i === 30)
         document.write(i);
     else {
